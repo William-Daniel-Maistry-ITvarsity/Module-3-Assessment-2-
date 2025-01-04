@@ -1,0 +1,1892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- Character Encoding (Ensure proper text rendering) -->
+
+        <!-- Favicon (Ensure both formats for maximum compatibility and visual quality) -->
+        <!-- Favicon in .ico format for older browsers like Internet Explorer -->
+        <link rel="icon" href="images/favicon__ico.ico" type="image/x-icon">
+
+        <!-- Favicon in .png format for modern browsers with transparency support -->
+        <link rel="icon" href="images/favicon__png.png" type="image/png">
+
+        <!-- Viewport Meta Tag (For responsive design on mobile devices) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Title Tag (Displayed in the browser tab and used for SEO) -->
+        <title>Eggplant Parmesan | Crave Corner</title>
+
+        <!-- SEO Meta Tags -->
+        <meta name="description"
+            content="Enjoy the rich and savory flavors of Crave Corner's Eggplant Parmesan. Layers of crispy breaded eggplant, marinara sauce, and melted cheese come together for a hearty, vegetarian delight.">
+        <meta name="keywords"
+            content="Eggplant Parmesan, Crave Corner vegetarian, eggplant dish, baked eggplant, vegetarian Parmesan, Italian eggplant, vegetarian meal, comfort food, eggplant recipes">
+        <meta name="author" content="William Daniel Maistry">
+
+        <!-- Robots Meta Tag (Tells search engines to index and follow links) -->
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph Meta Tags (For social media sharing like Facebook, LinkedIn, etc.) -->
+        <meta property="og:title" content="Eggplant Parmesan | Crave Corner">
+        <meta property="og:type" content="website">
+        <!-- TODO: Add actual url -->
+        <meta property="og:url"
+            content="https://www.cravecorner.com/menu/vegetarian/eggplant-parmesan">
+        <!-- TODO: Add actual img url -->
+        <meta property="og:image"
+            content="https://www.cravecorner.com/images/eggplant-parmesan.jpg">
+        <meta property="og:description"
+            content="Enjoy the rich and savory flavors of Crave Corner's Eggplant Parmesan. Layers of crispy breaded eggplant, marinara sauce, and melted cheese come together for a hearty, vegetarian delight.">
+        <meta property="og:site_name" content="Crave Corner">
+        <meta property="og:locale" content="en_ZA">
+
+        <!-- Twitter Meta Tags (For Twitter card display) -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Eggplant Parmesan | Crave Corner">
+        <meta name="twitter:description"
+            content="Enjoy the rich and savory flavors of Crave Corner's Eggplant Parmesan. Layers of crispy breaded eggplant, marinara sauce, and melted cheese come together for a hearty, vegetarian delight.">
+        <!-- TODO: Add actual img url -->
+        <meta name="twitter:image"
+            content="https://www.cravecorner.com/images/eggplant-parmesan.jpg">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Font Awesome (For adding icons) -->
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+
+            <!-- Back-arrow -->
+            <a href="vegetarian.html" title="Vegetarian Dishes"
+                class="back-arrow"><i
+                    class="fa-solid fa-arrow-left"></i></a>
+
+            <!-- Header content -->
+            <div class="header-content">
+
+                <!-- Logo -->
+                <div class="header-logo">
+
+                    <!-- Image -->
+                    <a class="header-logo__img" href="index.html">
+                        <img src="images/logo.png" alt="Logo" width="50"
+                            height="50"
+                            title="Home">
+                    </a>
+
+                    <!-- Text -->
+                    <a href="index.html" class="header-logo__heading">
+                        <h1 class="inline" title="Home">Crave Corner</h1>
+                    </a>
+                </div>
+
+                <!-- Tabs -->
+                <div class="header-tabs">
+
+                    <!-- Contact -->
+                    <a href="contact.html" title="Contact">
+                        <i
+                            class="fa-solid fa-phone"></i>
+                        <p>Contact Us</p>
+                    </a>
+
+                    <!-- About -->
+                    <a href="about.html" title="About Us">
+                        <i
+                            class="fa-solid fa-circle-info"></i>
+                        <p>About US</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- More options button -->
+            <input type="radio" id="header-list" name="more-options"
+                class="none">
+            <label for="header-list" title="More Options" class="header-list"><i
+                    class="fa-solid fa-bars"></i></label>
+
+            <!-- Menu section (initially hidden) -->
+            <section>
+
+                <!-- Close button -->
+                <input type="radio" id="header-list-close" name="more-options"
+                    class="none">
+                <label for="header-list-close" title="Close"
+                    class="close__header_menu"><i
+                        class="fa-solid fa-close"></i></label>
+
+                <!-- Menu content -->
+                <div class="header__section-content">
+
+                    <!-- Main menu -->
+                    <div class="header__menu-items">
+                        <a href="main-menu.html" class="primary">Main Menu</a>
+                        <input type="radio" id="main-menu" name="menu"
+                            class="open none">
+                        <label for="main-menu"><i
+                                class="fa-solid fa-plus"
+                                title="Show More"></i></label>
+                        <label for="main-menu__close" class="none"><i
+                                class="fa-solid fa-minus"
+                                title="Show Less"></i></label>
+                        <input type="radio" id="main-menu__close" name="menu"
+                            class="none" checked>
+
+                        <!-- Main menu items -->
+                        <div class="main-menu none">
+
+                            <!-- Starters -->
+                            <div class="header__menu-items">
+                                <a href="starters.html"
+                                    class="secondary">Starters</a>
+                                <input type="radio" id="starters"
+                                    name="main-menu__items"
+                                    class="open none">
+                                <label for="starters"><i
+                                        class="fa-solid fa-plus"
+                                        title="Show More"></i></label>
+                                <label for="starters-close" class="none"><i
+                                        class="fa-solid fa-minus"
+                                        title="Show Less"></i></label>
+                                <input type="radio" id="starters-close"
+                                    name="main-menu__items" class="none"
+                                    checked>
+
+                                <!-- Starters items -->
+                                <div class="starters none">
+
+                                    <!-- Category container -->
+                                    <div class="header__menu-items--options">
+
+                                        <!-- Food items -->
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="bruschetta.html">Bruschetta</a>
+                                            <img
+                                                src="images/starters/bruschetta1.jpg"
+                                                alt="Bruschetta Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="chicken-wings.html">Chicken
+                                                Wings</a>
+                                            <img
+                                                src="images/starters/chicken-wings1.jpg"
+                                                alt="Chicken Wings Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="garlic-bread.html">Garlic
+                                                Bread</a>
+                                            <img
+                                                src="images/starters/garlic-bread1.jpg"
+                                                alt="Garlic Bread Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="onion-rings-starter.html">Onion
+                                                Rings</a>
+                                            <img
+                                                src="images/starters/onion-rings-starter1.JPG"
+                                                alt="Onion Rings Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="samosas.html">Samosas</a>
+                                            <img
+                                                src="images/starters/samosas1.jpg"
+                                                alt="Samosas Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="spring-rolls.html">Spring
+                                                Rolls</a>
+                                            <img
+                                                src="images/starters/spring-rolls1.jpg"
+                                                alt="Spring Rolls Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="stuffed-mushrooms.html">Stuffed
+                                                Mushrooms</a>
+                                            <img
+                                                src="images/starters/stuffed-mushroom1.jpg"
+                                                alt="Stuffed Mushrooms Image"
+                                                width="200" height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Meals -->
+                            <div class="header__menu-items">
+                                <a href="meals.html" class="secondary">Meals</a>
+                                <input type="radio" id="meals"
+                                    name="main-menu__items"
+                                    class="open none">
+                                <label for="meals"><i
+                                        class="fa-solid fa-plus"
+                                        title="Show More"></i></label>
+                                <label for="meals-close" class="none"><i
+                                        class="fa-solid fa-minus"
+                                        title="Show Less"></i></label>
+                                <input type="radio" id="meals-close"
+                                    name="main-menu__items"
+                                    class="none" checked>
+
+                                <!-- Meals items -->
+                                <div class="meals none">
+
+                                    <!-- Beef -->
+                                    <div class="header__menu-items">
+                                        <a href="beef.html">Beef</a>
+                                        <input type="radio" id="beef"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="beef"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="beef-close" class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="beef-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Beef items -->
+                                        <div class="beef none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="beef-and-broccoli-stirfry.html">Beef
+                                                        and
+                                                        Broccoli Stir-Fry</a>
+                                                    <img
+                                                        src="images/meals/beef/beef-and-broccoli1.jpg"
+                                                        alt="Beef and Broccoli Stir-Fry Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="beef-stroganoff.html">Beef
+                                                        Stroganoff</a>
+                                                    <img
+                                                        src="images/meals/beef/beef-stroganoff1.jpg"
+                                                        alt="Beef Stroganoff Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="beef-tacos.html">Beef
+                                                        Tacos</a>
+                                                    <img
+                                                        src="images/meals/beef/beef-tacos1.jpg"
+                                                        alt="Beef Tacos Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="beef-wellington.html">Beef
+                                                        Wellington</a>
+                                                    <img
+                                                        src="images/meals/beef/beef-wellington1.jpg"
+                                                        alt="Beef Wellington Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="ribeye-steak.html">Ribeye
+                                                        Steak</a>
+                                                    <img
+                                                        src="images/meals/beef/ribeye-steak1.jpg"
+                                                        alt="Ribeye Steak Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Biryanis -->
+                                    <div class="header__menu-items">
+                                        <a href="biryanis.html">Biryanis</a>
+                                        <input type="radio" id="biryanis"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="biryanis"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="biryanis-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="biryanis-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Biryanis items -->
+                                        <div class="biryanis none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="beef-biryani.html">Beef
+                                                        Biryani</a>
+                                                    <img
+                                                        src="images/meals/biryanis/beef-biryani1.jpg"
+                                                        alt="Beef Biryani Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="chicken-biryani.html">Chicken
+                                                        Biryani</a>
+                                                    <img
+                                                        src="images/meals/biryanis/chicken-biryani1.jpeg"
+                                                        alt="Chicken Biryani Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="fish-biryani.html">Fish
+                                                        Biryani</a>
+                                                    <img
+                                                        src="images/meals/biryanis/fish-biryani1.jpg"
+                                                        alt="Fish Biryani Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lamb-biryani.html">Lamb
+                                                        Biryani</a>
+                                                    <img
+                                                        src="images/meals/biryanis/lamb-biryani1.jpg"
+                                                        alt="Lamb Biryani Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="prawn-biryani.html">Prawn
+                                                        Biryani</a>
+                                                    <img
+                                                        src="images/meals/biryanis/prawn-biryani1.jpg"
+                                                        alt="Prawn Biryani Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="vegetable-biryani.html">Vegetable
+                                                        Biryani</a>
+                                                    <img
+                                                        src="images/meals/biryanis/vegetable-biryani1.jpg"
+                                                        alt="Vegetable Biryani Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Burgers -->
+                                    <div class="header__menu-items">
+                                        <a href="burgers.html">Burgers</a>
+                                        <input type="radio" id="burgers"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="burgers"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="burgers-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="burgers-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Burger items -->
+                                        <div class="burgers none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="chicken-burger.html">Chicken
+                                                        Burger</a>
+                                                    <img
+                                                        src="images/meals/burgers/chicken-burger1.jpg"
+                                                        alt="Chicken Burger Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="classic-cheeseburger.html">Classic
+                                                        Cheeseburger</a>
+                                                    <img
+                                                        src="images/meals/burgers/classic-cheeseburger1.jpg"
+                                                        alt="Classic Cheeseburger Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="fish-burger.html">Fish
+                                                        Burger</a>
+                                                    <img
+                                                        src="images/meals/burgers/fish-burger1.jpg"
+                                                        alt="Fish Burger Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="mushroom-swiss-burger.html">Mushroom
+                                                        Swiss
+                                                        Burger</a>
+                                                    <img
+                                                        src="images/meals/burgers/mushroom-swiss-burger1.jpg"
+                                                        alt="Mushroom Swiss Burger Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="veggie-burger.html">Veggie
+                                                        Burger</a>
+                                                    <img
+                                                        src="images/meals/burgers/veggie-burger1.jpg"
+                                                        alt="Veggie Burger Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Chicken -->
+                                    <div class="header__menu-items">
+                                        <a href="chicken.html">Chicken</a>
+                                        <input type="radio" id="chicken"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="chicken"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="chicken-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="chicken-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Chicken items -->
+                                        <div class="chicken none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="chicken-caesar-salad.html">Chicken
+                                                        Caesar
+                                                        Salad</a>
+                                                    <img
+                                                        src="images/meals/chicken/chicken-caesar-salad1.png"
+                                                        alt="Chicken Caesar Salad Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="chicken-parmesan.html">Chicken
+                                                        Parmesan</a>
+                                                    <img
+                                                        src="images/meals/chicken/chicken-parmesan1.jpg"
+                                                        alt="Chicken Parmesan Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="chicken-schnitzel.html">Chicken
+                                                        Schnitzel</a>
+                                                    <img
+                                                        src="images/meals/chicken/chicken-schnitzel1.jpg"
+                                                        alt="Chicken Schnitzel Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="chicken-tikka-masala.html">Chicken
+                                                        Tikka
+                                                        Masala</a>
+                                                    <img
+                                                        src="images/meals/chicken/chicken-tikka-masala1.jpg"
+                                                        alt="Chicken Tikka Masala Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="flame-grilled-chicken.html">Flame
+                                                        Grilled
+                                                        Chicken</a>
+                                                    <img
+                                                        src="images/meals/chicken/flame-grilled-chicken1.jpg"
+                                                        alt="Flame Grilled Chicken Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="fried-chicken.html">Fried
+                                                        Chicken</a>
+                                                    <img
+                                                        src="images/meals/chicken/fried-chicken1.jpg"
+                                                        alt="Fried Chicken Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Curries -->
+                                    <div class="header__menu-items">
+                                        <a href="curries.html">Curries</a>
+                                        <input type="radio" id="curries"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="curries"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="curries-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="curries-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Curries items -->
+                                        <div class="curries none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="beef-madras.html">Beef
+                                                        Madras</a>
+                                                    <img
+                                                        src="images/meals/curries/beef-madras1.jpg"
+                                                        alt="Beef Madras Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="butter-chicken.html">Butter
+                                                        Chicken</a>
+                                                    <img
+                                                        src="images/meals/curries/butter-chicken1.jpg"
+                                                        alt="Butter Chicken Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="chicken-curry.html">Chicken
+                                                        Curry</a>
+                                                    <img
+                                                        src="images/meals/curries/chicken-curry1.jpg"
+                                                        alt="Chicken Curry Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="goan-fish-curry.html">Goan
+                                                        Fish
+                                                        Curry</a>
+                                                    <img
+                                                        src="images/meals/curries/goan-fish-curry1.jpg"
+                                                        alt="Goan Fish Curry Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lamb-korma.html">Lamb
+                                                        Korma</a>
+                                                    <img
+                                                        src="images/meals/curries/lamb-korma1.jpg"
+                                                        alt="Lamb Korma Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="paneer-tikka-masala.html">Paneer
+                                                        Tikka
+                                                        Masala</a>
+                                                    <img
+                                                        src="images/meals/curries/paneer-tikka-masala1.jpg"
+                                                        alt="Paneer Tikka Masala Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="thai-green-curry.html">Thai
+                                                        Green
+                                                        Curry</a>
+                                                    <img
+                                                        src="images/meals/curries/thai-green-curry1.jpg"
+                                                        alt="Thai Green Curry Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="vegetable-curry.html">Vegetable
+                                                        Curry</a>
+                                                    <img
+                                                        src="images/meals/curries/vegetable-curry1.jpg"
+                                                        alt="Vegetable Curry Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Lamb -->
+                                    <div class="header__menu-items">
+                                        <a href="lamb.html">Lamb</a>
+                                        <input type="radio" id="lamb"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="lamb"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="lamb-close" class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="lamb-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Lamb items -->
+                                        <div class="lamb none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lamb-chops.html">Lamb
+                                                        Chops</a>
+                                                    <img
+                                                        src="images/meals/lamb/lamb-chops1.jpeg"
+                                                        alt="Lamb Chops Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lamb-kofta.html">Lamb
+                                                        Kofta</a>
+                                                    <img
+                                                        src="images/meals/lamb/lamb-kofta1.jpg"
+                                                        alt="Lamb Kofta Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lamb-shawarma.html">Lamb
+                                                        Shawarma</a>
+                                                    <img
+                                                        src="images/meals/lamb/lamb-shawarma1.jpg"
+                                                        alt="Lamb Shawarma Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lamb-tagine.html">Lamb
+                                                        Tagine</a>
+                                                    <img
+                                                        src="images/meals/lamb/lamb-tagine1.jpg"
+                                                        alt="Lamb Tagine Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Pasta -->
+                                    <div class="header__menu-items">
+                                        <a href="pasta.html">Pasta</a>
+                                        <input type="radio" id="pasta"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="pasta"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="pasta-close" class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="pasta-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Pasta items -->
+                                        <div class="pasta none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="fettuccine-alfredo.html">Fettuccine
+                                                        Alfredo</a>
+                                                    <img
+                                                        src="images/meals/pasta/fettuccine-alfredo1.jpg"
+                                                        alt="Fettuccine Alfredo Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lasagna.html">Lasagna</a>
+                                                    <img
+                                                        src="images/meals/pasta/lasagna1.jpg"
+                                                        alt="Lasagna Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="mac-and-cheese.html">Mac
+                                                        and
+                                                        Cheese</a>
+                                                    <img
+                                                        src="images/meals/pasta/mac-and-cheese1.jpg"
+                                                        alt="Mac and Cheese Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="pasta-primavera.html">Pasta
+                                                        Primavera</a>
+                                                    <img
+                                                        src="images/meals/pasta/pasta-primavera1.jpg"
+                                                        alt="Pasta Primavera Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="spaghetti-bolognese.html">Spaghetti
+                                                        Bolognese</a>
+                                                    <img
+                                                        src="images/meals/pasta/spaghetti-bolognese1.jpg"
+                                                        alt="Spaghetti Bolognese Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Pizzas -->
+                                    <div class="header__menu-items">
+                                        <a href="pizzas.html">Pizzas</a>
+                                        <input type="radio" id="pizzas"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="pizzas"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="pizzas-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="pizzas-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Pizzas items -->
+                                        <div class="pizzas  none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="bbq-chicken-pizza.html">BBQ
+                                                        Chicken
+                                                        Pizza</a>
+                                                    <img
+                                                        src="images/meals/pizzas/bbq-chicken-pizza1.jpg"
+                                                        alt="BBQ Chicken Pizza Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="four-cheese-pizza.html">Four
+                                                        Cheese
+                                                        Pizza</a>
+                                                    <img
+                                                        src="images/meals/pizzas/four-cheese-pizza1.jpg"
+                                                        alt="Four Cheese Pizza Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="margherita-pizza.html">Margherita
+                                                        Pizza</a>
+                                                    <img
+                                                        src="images/meals/pizzas/margherita-pizza1.jpg"
+                                                        alt="Margherita Pizza Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="pepperoni-pizza.html">Pepperoni
+                                                        Pizza</a>
+                                                    <img
+                                                        src="images/meals/pizzas/pepperoni-pizza1.jpg"
+                                                        alt="Pepperoni Pizza Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="vegetarian-pizza.html">Vegetarian
+                                                        Pizza</a>
+                                                    <img
+                                                        src="images/meals/pizzas/vegetarian-pizza1.jpg"
+                                                        alt="Vegetarian Pizza Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Salads -->
+                                    <div class="header__menu-items">
+                                        <a href="salads.html">Salads</a>
+                                        <input type="radio" id="salads"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="salads"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="salads-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="salads-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Salads items -->
+                                        <div class="salads none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="caesar-salad.html">Caesar
+                                                        Salad</a>
+                                                    <img
+                                                        src="images/meals/salads/caesar-salad1.jpg"
+                                                        alt="Caesar Salad Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="caprese-salad.html">Caprese
+                                                        Salad</a>
+                                                    <img
+                                                        src="images/meals/salads/caprese-salad1.jpg"
+                                                        alt="Caprese Salad Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="greek-salad.html">Greek
+                                                        Salad</a>
+                                                    <img
+                                                        src="images/meals/salads/greek-salad1.jpg"
+                                                        alt="Greek Salad Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="kale-and-avocado-salad.html">Kale
+                                                        and
+                                                        Avocado Salad</a>
+                                                    <img
+                                                        src="images/meals/salads/kale-and-avocado-salad1.jpg"
+                                                        alt="Kale and Avocado Salad Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Seafood -->
+                                    <div class="header__menu-items">
+                                        <a href="seafood.html">Seafood</a>
+                                        <input type="radio" id="seafood"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="seafood"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="seafood-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio" id="seafood-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Seafood items -->
+                                        <div class="seafood none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="calamari-rings.html">Calamari
+                                                        Rings</a>
+                                                    <img
+                                                        src="images/meals/seafood/calamari-rings1.jpg"
+                                                        alt="Calamari Rings Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="fish-and-chips.html">Fish
+                                                        and
+                                                        Chips</a>
+                                                    <img
+                                                        src="images/meals/seafood/fish-and-chips1.jpg"
+                                                        alt="Fish and Chips Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="grilled-salmon.html">Grilled
+                                                        Salmon</a>
+                                                    <img
+                                                        src="images/meals/seafood/grilled-salmon1.jpg"
+                                                        alt="Grilled Salmon Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="lobster-tail.html">Lobster
+                                                        Tail</a>
+                                                    <img
+                                                        src="images/meals/seafood/lobster-tail1.jpg"
+                                                        alt="Lobster Tail Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="seafood-paella.html">Seafood
+                                                        Paella</a>
+                                                    <img
+                                                        src="images/meals/seafood/seafood-paella1.jpg"
+                                                        alt="Seafood Paella Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="shrimp-scampi.html">Shrimp
+                                                        Scampi</a>
+                                                    <img
+                                                        src="images/meals/seafood/shrimp-scampi1.jpg"
+                                                        alt="Shrimp Scampi Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Specialty dishes -->
+                                    <div class="header__menu-items">
+                                        <a
+                                            href="specialty-dishes.html">Specialty
+                                            Dishes</a>
+                                        <input type="radio"
+                                            id="specialty-dishes"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="specialty-dishes"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="specialty-dishes__close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio"
+                                            id="specialty-dishes__close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Specialty dishes items -->
+                                        <div class="specialty-dishes none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="duck-breast.html">Duck
+                                                        Breast</a>
+                                                    <img
+                                                        src="images/meals/specialty-dishes/duck-breast1.jpg"
+                                                        alt="Duck Breast Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="ratatouille.html">Ratatouille</a>
+                                                    <img
+                                                        src="images/meals/specialty-dishes/ratatouille1.jpg"
+                                                        alt="Ratatouille Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="stuffed-dosa.html">Stuffed
+                                                        Dos</a>
+                                                    <img
+                                                        src="images/meals/specialty-dishes/stuffed-dosa1.jpg"
+                                                        alt="Stuffed Dosa Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="sushi.html">Sushi</a>
+                                                    <img
+                                                        src="images/meals/specialty-dishes/sushi1.jpg"
+                                                        alt="Sushi Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Vegetarian -->
+                                    <div class="header__menu-items">
+                                        <a href="vegetarian.html">Vegetarian</a>
+                                        <input type="radio" id="vegetarian"
+                                            name="meals-items__items"
+                                            class="open none">
+                                        <label for="vegetarian"><i
+                                                class="fa-solid fa-plus"
+                                                title="Show More"></i></label>
+                                        <label for="vegetarian-close"
+                                            class="none"><i
+                                                class="fa-solid fa-minus"
+                                                title="Show Less"></i></label>
+                                        <input type="radio"
+                                            id="vegetarian-close"
+                                            name="meals-items__items"
+                                            class="none"
+                                            checked>
+
+                                        <!-- Vegetarian items -->
+                                        <div class="vegetarian none">
+
+                                            <!-- Category container -->
+                                            <div
+                                                class="header__menu-items--options">
+
+                                                <!-- Food items -->
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="eggplant-parmesan.html">Eggplant
+                                                        Parmesan</a>
+                                                    <img
+                                                        src="images/meals/vegetarian/eggplant-parmesan1.jpg"
+                                                        alt="Eggplant Parmesan Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="stuffed-bell-peppers.html">Stuffed
+                                                        Bell
+                                                        Peppers</a>
+                                                    <img
+                                                        src="images/meals/vegetarian/stuffed-bell-pepper1.jpg"
+                                                        alt="Stuffed Bell Peppers Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="vegan-tacos.html">Vegan
+                                                        Tacos</a>
+                                                    <img
+                                                        src="images/meals/vegetarian/vegan-tacos1.jpg"
+                                                        alt="Vegan Tacos Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                                <div
+                                                    class="header__menu-items--options-items">
+                                                    <a
+                                                        href="vegetable-stir-fry.html">Vegetable
+                                                        Stir-Fry</a>
+                                                    <img
+                                                        src="images/meals/vegetarian/vegetable-stir-fry1.jpg"
+                                                        alt="Vegetable Stir-Fry Image"
+                                                        width="200"
+                                                        height="100">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Desserts -->
+                            <div class="header__menu-items">
+                                <a href="desserts.html"
+                                    class="secondary">Desserts</a>
+                                <input type="radio" id="desserts"
+                                    name="main-menu__items" class="open none">
+                                <label for="desserts"><i
+                                        class="fa-solid fa-plus"
+                                        title="Show More"></i></label>
+                                <label for="desserts-close" class="none"><i
+                                        class="fa-solid fa-minus"
+                                        title="Show Less"></i></label>
+                                <input type="radio" id="desserts-close"
+                                    name="main-menu__items" class="none"
+                                    checked>
+
+                                <!--  Desserts items  -->
+                                <div class="desserts none">
+
+                                    <!-- Category container -->
+                                    <div class="header__menu-items--options">
+
+                                        <!-- Food items -->
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="banoffee-pie.html">Banoffee
+                                                Pie</a>
+                                            <img
+                                                src="images/desserts/banoffee-pie1.png"
+                                                alt="Banoffee Pie Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="brownies.html">Brownies</a>
+                                            <img
+                                                src="images/desserts/brownies1.jpg"
+                                                alt="Brownies Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="cheesecake.html">Cheesecake</a>
+                                            <img
+                                                src="images/desserts/cheesecake1.jpg"
+                                                alt="Cheesecake Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="chocolate-lava-cake.html">Chocolate
+                                                Lava
+                                                Cake</a>
+                                            <img
+                                                src="images/desserts/chocolate-lava-cake1.jpg"
+                                                alt="Chocolate Lava Cake Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="panna-cotta.html">Panna
+                                                Cotta</a>
+                                            <img
+                                                src="images/desserts/panna-cotta1.jpg"
+                                                alt="Panna Cotta Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="sundae.html">Sundae</a>
+                                            <img
+                                                src="images/desserts/sundae1.png"
+                                                alt="Sundae Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="waffle.html">Waffle</a>
+                                            <img
+                                                src="images/desserts/waffle1.jpg"
+                                                alt="Waffle Image" width="200"
+                                                height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--  Sides  -->
+                            <div class="header__menu-items">
+                                <a href="sides.html" class="secondary">Sides</a>
+                                <input type="radio" id="sides"
+                                    name="main-menu__items"
+                                    class="open none">
+                                <label for="sides"><i
+                                        class="fa-solid fa-plus"
+                                        title="Show More"></i></label>
+                                <label for="sides-close" class="none"><i
+                                        class="fa-solid fa-minus"
+                                        title="Show Less"></i></label>
+                                <input type="radio" id="sides-close"
+                                    name="main-menu__items"
+                                    class="none" checked>
+
+                                <!--  Sides items  -->
+                                <div class="sides none">
+
+                                    <!-- Category container -->
+                                    <div class="header__menu-items--options">
+
+                                        <!-- Food items -->
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="chips.html">Chips</a>
+                                            <img src="images/sides/chips1.jpg"
+                                                alt="Chips Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="coleslaw.html">Coleslaw</a>
+                                            <img
+                                                src="images/sides/coleslaw1.jpg"
+                                                alt="Coleslaw Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="corn.html">Corn</a>
+                                            <img src="images/sides/corn1.jpg"
+                                                alt="Corn Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="mashed-potatoes.html">Mashed
+                                                Potatoes</a>
+                                            <img
+                                                src="images/sides/mashed-potatoes1.jpg"
+                                                alt="Mashed Potatoes Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="onion-rings-side.html">Onion
+                                                Rings</a>
+                                            <img
+                                                src="images/sides/onion-rings-side1.jpg"
+                                                alt="Onion Rings Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="rice-pilaf.html">Rice
+                                                Pilaf</a>
+                                            <img
+                                                src="images/sides/rice-pilaf1.jpg"
+                                                alt="Rice Pilaf Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="steamed-vegetables.html">Steamed
+                                                Vegetables</a>
+                                            <img
+                                                src="images/sides/steamed-vegetables1.jpg"
+                                                alt="Steamed Vegetables Image"
+                                                width="200" height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- === Drinks === -->
+                            <div class="header__menu-items">
+                                <a href="drinks.html"
+                                    class="secondary">Drinks</a>
+                                <input type="radio" id="drinks"
+                                    name="main-menu__items"
+                                    class="open none">
+                                <label for="drinks"><i
+                                        class="fa-solid fa-plus"
+                                        title="Show More"></i></label>
+                                <label for="drinks-close" class="none"><i
+                                        class="fa-solid fa-minus"
+                                        title="Show Less"></i></label>
+                                <input type="radio" id="drinks-close"
+                                    name="main-menu__items" class="none"
+                                    checked>
+
+                                <!-- == Drinks items == -->
+                                <div class="drinks none">
+
+                                    <!-- Category container -->
+                                    <div class="header__menu-items--options">
+
+                                        <!-- Food items -->
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="coffee.html">Coffee</a>
+                                            <img src="images/drinks/coffee1.jpg"
+                                                alt="Coffee Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="iced-tea.html">Iced
+                                                Tea</a>
+                                            <img
+                                                src="images/drinks/iced-tea1.jpg"
+                                                alt="Iced Tea Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="juice.html">Juice</a>
+                                            <img src="images/drinks/juice1.jpg"
+                                                alt="Juice Image" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="milkshakes.html">Milkshakes</a>
+                                            <img
+                                                src="images/drinks/milkshakes1.jpg"
+                                                alt="Milkshakes Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="soft-drinks.html">Soft
+                                                Drinks</a>
+                                            <img
+                                                src="images/drinks/soft-drinks1.jpg"
+                                                alt="Soft Drinks Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="sparkling-water.html">Sparkling
+                                                Water</a>
+                                            <img
+                                                src="images/drinks/sparkling-water1.jpg"
+                                                alt="Sparkling Water Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="tea.html">Tea</a>
+                                            <img src="images/drinks/tea1.jpg"
+                                                alt="Tea Image" width="200"
+                                                height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- === Specials === -->
+                            <div class="header__menu-items">
+                                <a href="specials.html"
+                                    class="secondary">Specials</a>
+                                <input type="radio" id="specials"
+                                    name="main-menu__items" class="open none">
+                                <label for="specials"><i
+                                        class="fa-solid fa-plus"
+                                        title="Show More"></i></label>
+                                <label for="specials-close" class="none"><i
+                                        class="fa-solid fa-minus"
+                                        title="Show Less"></i></label>
+                                <input type="radio" id="specials-close"
+                                    name="main-menu__items" class="none"
+                                    checked>
+
+                                <!-- Specials items -->
+                                <div class="specials none">
+
+                                    <!-- Category container -->
+                                    <div class="header__menu-items--options">
+
+                                        <!-- Food items -->
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="chefs-special-pasta.html">Chef's
+                                                Special
+                                                Pasta</a>
+                                            <img
+                                                src="images/specials/chefs-special-pasta1.jpg"
+                                                alt="Chef's Special Pasta Image"
+                                                width="200" height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a
+                                                href="fajitas.html">Fajitas</a>
+                                            <img
+                                                src="images/specials/fajita1.jpg"
+                                                alt="Fajitas" width="200"
+                                                height="100">
+                                        </div>
+                                        <div
+                                            class="header__menu-items--options-items">
+                                            <a href="lamb-meatballs.html">Lamb
+                                                Meatballs</a>
+                                            <img
+                                                src="images/specials/lamb-meatballs1.jpg"
+                                                alt="Lamb Meatballs Image"
+                                                width="200" height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kids' menu -->
+                    <div class="header__menu-items">
+                        <a href="kids-menu.html" class="primary">Kids' Menu</a>
+                        <input type="radio" id="kids-menu" name="menu"
+                            class="open none">
+                        <label for="kids-menu"><i
+                                class="fa-solid fa-plus"
+                                title="Show More"></i></label>
+                        <label for="kids-menu__close" class="none"><i
+                                class="fa-solid fa-minus"
+                                title="Show Less"></i></label>
+                        <input type="radio" id="kids-menu__close" name="menu"
+                            class="none" checked>
+
+                        <!-- Kids' menu items -->
+                        <div class="kids-menu none">
+
+                            <!-- Category container -->
+                            <div class="header__menu-items--options">
+
+                                <!-- Food items -->
+                                <div class="header__menu-items--options-items">
+                                    <a href="chicken-tenders.html">Chicken
+                                        Tenders</a>
+                                    <img
+                                        src="images/kids-menu/chicken-tenders1.jpg"
+                                        alt="Chicken Tenders Image" width="200"
+                                        height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a
+                                        href="fruit-cup.html">Fruit
+                                        Cup</a>
+                                    <img src="images/kids-menu/fruit-cup1.jpg"
+                                        alt="Fruit Cup Image" width="200"
+                                        height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a href="macaroni-and-cheese.html">Macaroni
+                                        and
+                                        Cheese</a>
+                                    <img
+                                        src="images/kids-menu/macaroni-and-cheese1.jpeg"
+                                        alt="Macaroni and Cheese Image"
+                                        width="200" height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a href="mini-cheeseburger.html">Mini
+                                        Cheeseburger</a>
+                                    <img
+                                        src="images/kids-menu/mini-cheeseburger1.jpg"
+                                        alt="Mini Cheeseburger Image"
+                                        width="200" height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a
+                                        href="mini-pizza.html">Mini
+                                        Pizza</a>
+                                    <img src="images/kids-menu/mini-pizza1.jpg"
+                                        alt="Mini Pizza Image" width="200"
+                                        height="100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Breakfast menu -->
+                    <div class="header__menu-items">
+                        <a href="breakfast-menu.html" class="primary">Breakfast
+                            Menu</a>
+                        <input type="radio" id="breakfast-menu" name="menu"
+                            class="open none">
+                        <label for="breakfast-menu"><i
+                                class="fa-solid fa-plus"
+                                title="Show More"></i></label>
+                        <label for="breakfast-menu__close" class="none"><i
+                                class="fa-solid fa-minus"
+                                title="Show Less"></i></label>
+                        <input type="radio" id="breakfast-menu__close"
+                            name="menu"
+                            class="none" checked>
+
+                        <!-- Breakfast menu items -->
+                        <div class="breakfast-menu none">
+
+                            <!-- Category container -->
+                            <div class="header__menu-items--options">
+
+                                <!-- Food items -->
+                                <div class="header__menu-items--options-items">
+                                    <a
+                                        href="french-toast.html">French
+                                        Toast</a>
+                                    <img
+                                        src="images/breakfast-menu/french-toast1.jpg"
+                                        alt="French Toast Image" width="200"
+                                        height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a
+                                        href="omelette.html">Omelette</a>
+                                    <img
+                                        src="images/breakfast-menu/omelette1.jpg"
+                                        alt="Omelette Image" width="200"
+                                        height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a
+                                        href="pancakes.html">Pancakes</a>
+                                    <img
+                                        src="images/breakfast-menu/pancakes1.jpg"
+                                        alt="Pancakes Image" width="200"
+                                        height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a
+                                        href="salmon-bagel.html">Salmon
+                                        Bagel</a>
+                                    <img
+                                        src="images/breakfast-menu/salmon-bagel1.jpg"
+                                        alt="Salmon Bagel Image" width="200"
+                                        height="100">
+                                </div>
+                                <div class="header__menu-items--options-items">
+                                    <a
+                                        href="scrambled-eggs.html">Scrambled
+                                        Eggs</a>
+                                    <img
+                                        src="images/breakfast-menu/scrambled-eggs1.jpeg"
+                                        alt="Scrambled Eggs Image" width="200"
+                                        height="100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <!-- Main section -->
+        <main class="food-item">
+
+            <!-- Content container -->
+            <div class="food-item__content">
+
+                <!-- Food image -->
+                <section class="food-item__main-img">
+                    <a href="images/meals/vegetarian/eggplant-parmesan2.jpg">
+                        <img
+                            src="images/meals/vegetarian/eggplant-parmesan2.jpg"
+                            alt="Eggplant Parmesan"
+                            title="Eggplant Parmesan Image" width="800"
+                            height="500">
+                    </a>
+                </section>
+
+                <!-- Food info -->
+                <section class="food-item__info">
+                    <h1 class="center">Eggplant Parmesan</h1>
+                    <h2 class="inline">Price:</h2>
+                    <p class="inline">R160</p>
+                    <br>
+                    <h2 class="inline">Serving Size:</h2>
+                    <p class="inline">Serves 1</p>
+                    <h2>Description:</h2>
+                    <p>Our Eggplant Parmesan is a true Italian classic that will
+                        transport your taste buds straight to the heart of
+                        Italy. Thick slices of eggplant are breaded and fried to
+                        crispy perfection, then layered with rich marinara
+                        sauce, creamy mozzarella, and freshly grated Parmesan
+                        cheese. The dish is baked until the cheese is golden and
+                        bubbly, creating a mouthwatering contrast of
+                        textures—crispy on the outside, soft and tender on the
+                        inside. Served with a side of al dente pasta or warm
+                        garlic bread, it's a hearty and satisfying meal that
+                        perfectly balances savoury flavours with a hint of
+                        sweetness from the marinara sauce. Whether you're
+                        enjoying it as a standalone dish or pairing it with
+                        other Italian classics, this Eggplant Parmesan is
+                        perfect for a comforting, filling meal that's both
+                        indulgent and vegetarian-friendly.</p>
+
+                    <!-- Food form -->
+                    <form action="thanks.html">
+
+                        <!-- Food preference -->
+                        <h2>Select your preference</h2>
+                        <div class="options__input-container">
+                            <input type="radio" id="pasta-preference"
+                                name="preference"
+                                title="Eggplant Parmesan with Pasta" required
+                                aria-required="true">
+                            <label for="pasta-preference"
+                                title="Eggplant Parmesan with Pasta">Pasta</label>
+                        </div>
+                        <div class="options__input-container">
+                            <input type="radio" id="bread" name="preference"
+                                title="Eggplant Parmesan with Garlic Bread"
+                                required
+                                aria-required="true">
+                            <label for="bread"
+                                title="Eggplant Parmesan with Garlic Bread">Garlic
+                                Bread</label>
+                        </div>
+
+                        <!-- Food add-ons -->
+                        <h2>Extras:</h2>
+                        <div class="options__input-container">
+                            <input type="checkbox" id="check-01"
+                                title="Add Extra Mozzarella Cheese">
+                            <label for="check-01"
+                                title="Add Extra Mozzarella Cheese">Extra
+                                Mozzarella Cheese - R20</label>
+                        </div>
+                        <div class="options__input-container">
+                            <input type="checkbox" id="check-02"
+                                title="Add Extra Parmesan Cheese">
+                            <label for="check-02"
+                                title="Add Extra Parmesan Cheese">Extra Parmesan
+                                Cheese - R20</label>
+                        </div>
+                        <div class="options__input-container">
+                            <input type="checkbox" id="check-03"
+                                title="Add Garlic Bread">
+                            <label for="check-03"
+                                title="Add Garlic Bread">Garlic Bread -
+                                R25</label>
+                        </div>
+                        <div class="options__input-container">
+                            <input type="checkbox" id="check-04"
+                                title="Add Salad">
+                            <label for="check-04" title="Add Salad">Side Salad -
+                                R20</label>
+                        </div>
+                        <br>
+
+                        <!-- Food notes -->
+                        <label for="notes">Extra notes / requests for your
+                            order:</label>
+                        <textarea name="notes" id="notes"
+                            placeholder="Type your message here..."
+                            spellcheck="true"></textarea>
+                        <button type="submit">Place Order</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
