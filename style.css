@@ -309,6 +309,14 @@ header i {
     color: black;
 }
 
+.header__section-content i:hover {
+    color: grey;
+}
+
+.header__section-content i:active {
+    color: lightgrey;
+}
+
 .header__menu-items a.primary {
     color: #551a8b;
 }
